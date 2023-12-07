@@ -1,0 +1,66 @@
+.react-logo > h1{
+    font-size: 1.391rem;
+    color: #61DAFB;
+    margin-left: 0.6rem;
+}
+
+.header-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #21222A;
+    height: 5.625rem;
+}
+
+.react-logo{
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.header-bar > p{
+    color: #DEEBF8;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+}
+
+
+
+.react-facts > h1{
+    font-size: 39px;
+    margin-left: 27px;
+    color: #FFFFFF;
+    letter-spacing: -0.05em;
+}
+
+
+.react-facts-img{
+    height: 263px;
+    width: 263px;
+}
+
+
+.react-facts-content{
+    display: flex;
+    margin-left: 24px;
+    gap: 260px;
+}
+.react-facts-list{
+    max-width: 400px;
+    margin: 0;
+}
+.react-facts-list > li{
+    font-size: 1.1rem;
+    padding-block: 10px;
+    color: #FFFFFF;
+}
+
+.react-facts-list > li::marker{
+    color: #61DAFB;
+    font-size: 1.4rem;
+
+}
+
+
+
+
