@@ -1,3 +1,8 @@
+.app{
+    height: 100vh;
+    background-color: white;
+}
+
 .react-logo > h1{
     font-size: 1.391rem;
     color: #61DAFB;
@@ -23,6 +28,7 @@
     margin-right: 2rem;
     font-size: 1.2rem;
 }
+
 
 
 
@@ -60,6 +66,82 @@
     font-size: 1.4rem;
 
 }
+
+
+.mode{
+    display: flex;
+    padding: 20px;
+}
+
+.mode-outer-circle{
+    width: 26px;
+    border-radius: 15px;
+    background-color: white;
+    transform: rotate(90deg);
+    position: relative;
+}
+
+.mode-inner-circle{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    bottom: 50%;
+    left: 4%;
+}
+
+.mode-light{
+    margin-right: 20px;
+    color: #918E9B;
+}
+
+.mode-dark{
+    margin-left: 20px;
+    color: white;
+}
+
+
+
+/* Mode Specfic Classes */
+
+
+.lightN .mode-light{
+    color: black;
+}
+
+.lightN .mode-outer-circle{
+    background-color: black;
+}
+
+.lightN .mode-dark{
+    color: #D5D4D8;
+}
+
+.lightN .mode-inner-circle{
+    top: 50%;
+    background-color: white;
+}
+
+.lightN .header-bar{
+    background-color: white;
+}
+
+
+.lightC .react-facts-heading{
+    color: black;
+}
+
+.lightC .react-facts-list > li{
+    color: black;
+}
+
+
+
+
+
+
+
 
 
 
